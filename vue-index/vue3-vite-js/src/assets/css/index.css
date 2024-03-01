@@ -1,0 +1,531 @@
+body,button,input,select,h1,h2,h3,h4,h5,h6,a,li,p,span{
+	font-family: "microsoft yahei";
+}
+.body{
+	
+}
+/* ----------------------页面头部样式---------------------- */
+.container-fluid{
+	padding-right: 0;
+	padding-left: 0;
+	background: url("../img/body背景.jpg");
+	background-repeat:no-repeat;
+	 background-position:center 0px;
+	 background-size:1920px;
+}
+.header-h{
+	height: 600px;
+}
+.header{
+	background-color: #363636;
+	padding-top: 1.5rem;
+}
+.header>.navbar{
+	background-color: #000;
+	padding:1.5em;
+}
+
+.header>.navbar a{
+	text-decoration: none;
+}
+/* logo */
+.header>nav>.navbar-brand>img{
+	max-width: 250px;
+}
+/* 导航ul */
+.header #collapsibleNavbar>.navbar-nav{
+	margin-left: 1rem;
+}
+/* 导航a标记 */
+.header #collapsibleNavbar>.navbar-nav a{
+	color: #343434;
+	padding: 0.5rem 2.5rem;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.header #collapsibleNavbar>.navbar-nav a:hover{
+	background-color: #000;
+	color: white;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border-color:  #fff;
+}
+/* 导航栏购物车 */
+.header>nav .navbar-shopcart{
+	margin-left: 1.5rem;
+}
+.header>nav .navbar-shopcart>a>span{
+	font-size: 2rem;
+}
+/* 导航栏登录注册 */
+.header>nav .navbar-login{
+	margin-left: 1rem;
+}
+.header>nav .navbar-login>a{
+	padding-right: 0.5rem;
+	color: #333;
+}
+.header>nav .navbar-login>a:hover{
+	color: red;
+}
+/* 媒体查询 */
+/* 当屏幕小于1600px时 */
+@media (max-width:1600px) {
+	/* 头部导航caid大小发生变化 */
+	.header #collapsibleNavbar>.navbar-nav a{
+		padding: 0.5rem 1.5rem;
+	}
+	.container-fluid{
+		padding-right: 0;
+		padding-left: 0;
+		background: url("../img/body背景.jpg");
+		background-repeat:no-repeat;
+		 background-position:center 0px;
+		 background-size:1600px;
+	}
+	.header-h{
+		height: 450px;
+	}
+}
+/* 当屏幕小于1200px时 */
+@media (max-width:1200px) {
+	/* 头部导航caid大小发生变化 */
+	.header #collapsibleNavbar>.navbar-nav a{
+		padding: 0.5rem 1.5rem;
+	}
+	.container-fluid{
+		padding-right: 0;
+		padding-left: 0;
+		background: url("../img/body背景.jpg");
+		background-repeat:no-repeat;
+		 background-position:center 0px;
+		 background-size:1200px;
+	}
+	.header-h{
+		height: 200px;
+	}
+}
+/* 当屏幕小于992px时 */
+@media (max-width:992px) {
+	/* 头部导航caid大小发生变化 */
+	.header #collapsibleNavbar>.navbar-nav a{
+		padding: 0.5rem 1rem;
+	}
+	.container-fluid{
+		padding-right: 0;
+		padding-left: 0;
+		background: url("../img/body背景.jpg");
+		background-repeat:no-repeat;
+		 background-position:center 0px;
+		 background-size:1200px;
+	}
+	.header-h{
+		height: 100px;
+	}
+}
+/* 当屏幕小于768px时 */
+@media (max-width:768px) {
+	/* 头部导航caid大小发生变化 */
+	.header #collapsibleNavbar>.navbar-nav a{
+		padding: 0.5rem 0.5rem;
+	}
+	.container-fluid{
+		padding-right: 0;
+		padding-left: 0;
+		background: url("../img/body背景.jpg");
+		background-repeat:no-repeat;
+		 background-position:center 0px;
+		 background-size:800px;
+	}
+	.header-h{
+		height: 100px;
+	}
+}
+/* 当屏幕小于576px时 */
+@media (max-width:576px) {
+	/* 头部导航caid大小发生变化 */
+	.header #collapsibleNavbar>.navbar-nav a{
+		padding: 0;
+	}
+	.container-fluid{
+		padding-right: 0;
+		padding-left: 0;
+		background: url("../img/body背景.jpg");
+		background-repeat:no-repeat;
+		 background-position:center 0px;
+		 background-size:800px;
+	}
+	.header-h{
+		height: 100px;
+	}
+}
+
+
+
+/* ----------------------搜索框样式---------------------- */
+.search{
+	
+	min-height: 300px;
+	margin-top: -20px;
+	padding-top: 1px; /* 解决下移问题 */
+}
+.search-form-bg{
+	padding: 1px;
+	width: 750px;
+	height: 600px;
+	background: url("../img/背景.png");
+	background-repeat:no-repeat;
+	 background-position:center 0px;
+	 background-size:100%;
+	margin: 0 auto;
+	margin-top: 10%;
+	font-weight: 500;
+	color: #f2f0f1;
+	font-size: 1.2em;
+	outline:none;
+}
+.search>.search-form-bg .btn{
+	width:40%;
+	background-color: #ffeecb;
+	color: #d54521;
+	padding: 5px;
+	border: none;
+	height: 60px;
+	font-size: 25px;
+}
+.form-control{
+	height: 60px;
+	font-size: 25px;
+}
+.form-groud{
+		width:600px;
+		margin-bottom: 20px;
+	}
+	.form-h{
+		height: 300px;
+	}
+
+/* 屏幕小于768px时 */
+@media (max-width:768px) {
+	/* 大小变化 */
+	.search-form-bg{
+		padding: 1px;
+		width: 750px;
+		height: 600px;
+		background: url("../img/背景.png");
+		background-repeat:no-repeat;
+		 background-position:center 0px;
+		 background-size:500px;
+		margin: 0 auto;
+		margin-top: 10%;
+		font-weight: 500;
+		color: #f2f0f1;
+		font-size: 1.2em;
+		outline:none;
+	}
+	.header #collapsibleNavbar>.navbar-nav a{
+		padding: 0.5rem;
+	}
+	/* 搜索框背景大小变化 */
+	.search-form-bg{
+		width: 500px;
+		height: 400px;
+		padding: 50px;
+	}
+	.form-control{
+	height: 40px;
+	font-size: 16px;
+	}
+	.form-groud{
+		width:400px;
+		margin-bottom: 12px;
+	}
+	.form-h{
+		height: 180px;
+	}
+	.search>.search-form-bg .btn{
+		width:40%;
+		background-color: #ffeecb;
+		color: #d54521;
+		padding: 5px;
+		border: none;
+		height: 40px;
+		font-size: 20px;
+	}
+}
+
+/* 屏幕小于576px时 */
+@media (max-width:576px) {
+	/* 大小变化 */
+	.search-form-bg{
+		padding: 1px;
+		width: 750px;
+		height: 600px;
+		background: url("../img/背景.png");
+		background-repeat:no-repeat;
+		 background-position:center 0px;
+		 background-size:450px;
+		margin: 0 auto;
+		margin-top: 10%;
+		font-weight: 500;
+		color: #f2f0f1;
+		font-size: 1.2em;
+		outline:none;
+	}
+	.navbar-default .navbar-nav>.nav-item>a{
+		padding: 0;
+	}
+	/* 搜索框背景大小变化 */
+	.search-form-bg{
+		width: 200x;
+		padding: 50px;
+	}
+	.form-control{
+	height: 40px;
+	font-size: 16px;
+	width: 300px;
+	}
+	.form-groud{
+		width:400px;
+		margin-bottom: 12px;
+	}
+	.form-h{
+		height: 130px;
+	}
+	.search>.search-form-bg .btn{
+		width:40%;
+		background-color: #ffeecb;
+		color: #d54521;
+		padding: 5px;
+		border: none;
+		height: 40px;
+		font-size: 20px;
+	}
+}
+
+/* ----------------------底部样式---------------------- */
+.footer{
+	background-color: #363636;
+	overflow: hidden;
+	padding: 1.5em 0;
+	font-size: 0.8em;
+	margin-top: 2px;
+}
+.footer span{
+	font-size: 1.2rem;
+}
+.footer p{
+	color: #fff;
+	line-height: 1.8em;
+	vertical-align: middle;
+	margin: 0.4em 0;
+}
+.footer a{
+	color: #fff;
+}
+/* ----------------------轮播图---------------------- */
+.heard-h{
+		height: 600px;
+	}
+.carousel-inner>.carousel-item>img{
+	margin-top: 75px;
+	width: 1100px;
+}
+#carousel{
+	height: 635px;
+	background: url("../img/轮播背景.png");
+	background-repeat:no-repeat;
+	 background-position:center 0px;
+	 background-size:auto;
+	 overflow: hidden;
+	 width: 1275px;
+	 
+}
+.biaoti{
+	width: 856px;
+	height: 88px;
+	background: url("../img/标题.png");
+	background-repeat:no-repeat;
+	 background-position:center 0px;
+	 background-size:auto;
+	color: #fff;
+	font-size: 50px;
+}
+/* 当屏幕小于1600px时 */
+@media (max-width:1600px) {
+	/* 头部导航caid大小发生变化 */
+	.heard-h{
+		height: 400px;
+	}
+	.carousel-inner>.carousel-item>img{
+		margin-top: 50px;
+		width: 1000px;
+	}
+	#carousel{
+		background: url("../img/轮播背景.png");
+		background-repeat:no-repeat;
+		 background-position:center 0px;
+		 background-size:1200px;
+		 overflow: hidden;
+		 width: 1200px;
+		 height: 600px;
+	}
+	.biaoti{
+		width: 855x;
+		height: 88px;
+		background: url("../img/标题.png");
+		background-repeat:no-repeat;
+		 background-position:center 0px;
+		 background-size:855px;
+		color: #fff;
+		font-size: 50px;
+	}
+}
+/* 当屏幕小于1200px时 */
+@media (max-width:1200px) {
+	/* 头部导航caid大小发生变化 */
+	.heard-h{
+		height: 250px;
+	}
+	.carousel-inner>.carousel-item>img{
+		margin-top: 50px;
+		width: 850px;
+	}
+	#carousel{
+		background: url("../img/轮播背景.png");
+		background-repeat:no-repeat;
+		 background-position:center 0px;
+		 background-size:980px;
+		 overflow: hidden;
+		 width: 980px;
+		 height: 500px;
+	}
+	.biaoti{
+		width: 850x;
+		height: 88px;
+		background: url("../img/标题.png");
+		background-repeat:no-repeat;
+		 background-position:center 0px;
+		 background-size:850px;
+		color: #fff;
+		font-size: 50px;
+	}
+}
+/* 当屏幕小于992px时 */
+@media (max-width:992px) {
+	/* 头部导航caid大小发生变化 */
+	.heard-h{
+		height: 150px;
+	}
+	.carousel-inner>.carousel-item>img{
+		margin-top: 50px;
+		width: 660px;
+	}
+	#carousel{
+		background: url("../img/轮播背景.png");
+		background-repeat:no-repeat;
+		 background-position:center 0px;
+		 background-size:764px;
+		 overflow: hidden;
+		 width: 764px;
+		 height: 400px;
+	}
+	.biaoti{
+		width: 740px;
+		height: 88px;
+		background: url("../img/标题.png");
+		background-repeat:no-repeat;
+		 background-position:center 0px;
+		 background-size:740px;
+		color: #fff;
+		font-size: 42px;
+	}
+}
+/* 当屏幕小于768px时 */
+@media (max-width:768px) {
+	/* 头部导航caid大小发生变化 */
+	.heard-h{
+		height: 0px;
+	}
+	.carousel-inner>.carousel-item>img{
+		margin-top: 27px;
+		width: 500px;
+	}
+	#carousel{
+		background: url("../img/轮播背景.png");
+		background-repeat:no-repeat;
+		 background-position:center 0px;
+		 background-size:576px;
+		 overflow: hidden;
+		 width: 576px;
+		 height: 300px;
+	}
+	.biaoti{
+		width: 570px;
+		height: 88px;
+		background: url("../img/标题.png");
+		background-repeat:no-repeat;
+		 background-position:center 0px;
+		 background-size:570px;
+		color: #fff;
+		font-size: 32px;
+	}
+}
+/* 当屏幕小于576px时 */
+@media (max-width:576px) {
+	/* 头部导航caid大小发生变化 */
+	.carousel-inner>.carousel-item>img{
+		margin-top: 27px;
+		width: 85%;
+	}
+	#carousel{
+		background: url("../img/轮播背景.png");
+		background-repeat:no-repeat;
+		 background-position:center 0px;
+		 background-size:100%;
+		 overflow: hidden;
+		 width: 100%;
+		 height: 270px;
+	}
+	.biaoti{
+		width: 100%;
+		height: 88px;
+		background: url("../img/标题.png");
+		background-repeat:no-repeat;
+		 background-position:center 0px;
+		 background-size:95%;
+		color: #fff;
+		font-size: 30px;
+	}
+
+}
+/* -------------热卖商品--------------- */
+.remai  img{
+	width: 100%;
+}
+.dsn1{
+		display: block;
+	}
+.dsn{
+		display: none;
+	}
+@media (max-width:1200px) {
+	.dsn1{
+		display: none;
+	}
+	.dsn{
+		display: none;
+	}
+}
+@media (max-width:1160px) {
+	.dsn1{
+		display: none;
+	}
+	.dsn{
+		display: none;
+	}
+}
+

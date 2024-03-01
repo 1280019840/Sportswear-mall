@@ -1,0 +1,61 @@
+<template>
+  <div style="line-height: 60px; display: flex;width: 100%;">
+    <div style="flex: 1;">
+    </div>
+    <el-dropdown style="width: 150px; text-align: right; cursor: pointer">
+      <div style="display: inline-block">
+        <img :src=" user.avatarUrl " alt="" style="width: 50px; position: relative; top: 8px;margin-right: 10px">
+        <span>{{ user.nickname }}</span><i class="el-icon-arrow-down" style="margin-left: 5px"></i>
+      </div>
+      <el-dropdown-menu slot="dropdown" style="width: 100px; text-align: center">
+        <el-dropdown-item style="font-size: 14px; padding: 5px 0">
+          <span style="text-decoration: none" @click="changePass">修改密码</span>
+        </el-dropdown-item>
+        <el-dropdown-item style="font-size: 14px; padding: 5px 0">
+          <span style="text-decoration: none" @click="getInfo">个人信息</span>
+        </el-dropdown-item>
+        <el-dropdown-item style="font-size: 14px; padding: 5px 0">
+          <span style="text-decoration: none" @click="logout">退出登录</span>
+        </el-dropdown-item>
+      </el-dropdown-menu>
+    </el-dropdown>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Header",
+  props: {
+    collapseBtnClass: String,
+    collapse: '',
+    user:Object
+  },
+  data() {
+    return {
+
+    }
+  },
+  computed: {
+    currentPathName() {
+      return this.$store.state.currentPathName;　　//需要监听的数据
+    }
+  },
+  methods: {
+    logout() {
+      this.$store.commit("logout")
+      this.$message.success("退出成功！")
+    },
+    getInfo(){
+      this.$router.push("/person")
+    },
+    changePass(){
+      this.$router.push("/password")
+    }
+  }
+}
+</script>
+
+<style scoped>
+
+</style>
+

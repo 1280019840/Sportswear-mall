@@ -1,0 +1,266 @@
+body,button,input,select,h1,h2,h3,h4,h5,h6,a,li,p,span{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color: #f2f3f7;
+}
+input,button{
+	outline: none;
+}
+/* ----------------------页面头部样式---------------------- */
+.container-fluid{
+	padding-right: 0;
+	padding-left: 0;
+	
+}
+.header-h{
+	height: 600px;
+}
+.header{
+	background-color: #363636;
+	padding-top: 1.5rem;
+}
+.header>.navbar{
+	background-color: #000;
+	padding:1.5em;
+}
+
+.header>.navbar a{
+	text-decoration: none;
+}
+/* logo */
+.header>nav>.navbar-brand>img{
+	max-width: 250px;
+}
+/* 导航ul */
+.header #collapsibleNavbar>.navbar-nav{
+	margin-left: 1rem;
+}
+/* 导航a标记 */
+.header #collapsibleNavbar>.navbar-nav a{
+	color: #343434;
+	padding: 0.5rem 2.5rem;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.header #collapsibleNavbar>.navbar-nav a:hover{
+	background-color: #000;
+	color: white;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border-color:  #fff;
+}
+/* 导航栏购物车 */
+.header>nav .navbar-shopcart{
+	margin-left: 1.5rem;
+}
+.header>nav .navbar-shopcart>a>span{
+	font-size: 2rem;
+}
+/* 导航栏登录注册 */
+.header>nav .navbar-login{
+	margin-left: 1rem;
+}
+.header>nav .navbar-login>a{
+	padding-right: 0.5rem;
+	color: #333;
+}
+.header>nav .navbar-login>a:hover{
+	color: red;
+}
+/* 媒体查询 */
+/* 当屏幕小于1600px时 */
+@media (max-width:1600px) {
+	/* 头部导航caid大小发生变化 */
+	.header #collapsibleNavbar>.navbar-nav a{
+		padding: 0.5rem 1.5rem;
+	}
+	.container-fluid{
+		padding-right: 0;
+		padding-left: 0;
+		
+	}
+	.header-h{
+		height: 450px;
+	}
+}
+/* 当屏幕小于1200px时 */
+@media (max-width:1200px) {
+	/* 头部导航caid大小发生变化 */
+	.header #collapsibleNavbar>.navbar-nav a{
+		padding: 0.5rem 1.5rem;
+	}
+	.container-fluid{
+		padding-right: 0;
+		padding-left: 0;
+		
+	}
+	.header-h{
+		height: 200px;
+	}
+}
+/* 当屏幕小于992px时 */
+@media (max-width:992px) {
+	/* 头部导航caid大小发生变化 */
+	.header #collapsibleNavbar>.navbar-nav a{
+		padding: 0.5rem 1rem;
+	}
+	.container-fluid{
+		padding-right: 0;
+		padding-left: 0;
+		
+	}
+	.header-h{
+		height: 100px;
+	}
+}
+/* 当屏幕小于768px时 */
+@media (max-width:768px) {
+	/* 头部导航caid大小发生变化 */
+	.header #collapsibleNavbar>.navbar-nav a{
+		padding: 0.5rem 0.5rem;
+	}
+	.container-fluid{
+		padding-right: 0;
+		padding-left: 0;
+		
+	}
+	.header-h{
+		height: 100px;
+	}
+}
+/* 当屏幕小于576px时 */
+@media (max-width:576px) {
+	/* 头部导航caid大小发生变化 */
+	.header #collapsibleNavbar>.navbar-nav a{
+		padding: 0;
+	}
+	.container-fluid{
+		padding-right: 0;
+		padding-left: 0;
+		
+	}
+	.header-h{
+		height: 100px;
+	}
+}
+
+/* ----------------------商品展示---------------------- */
+.box1{
+	margin: 0px auto;
+	width: 1400px;
+	border:1px solid #dcdde1;
+	background-color: #fff;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+.boxone{
+	position: relative;
+	padding: 20px;
+	width: 300px;
+	height: 0px;
+	z-index: 2;
+}
+.boxtwo{
+	position: relative;
+	top: -20px;
+	padding-left: 300px;
+	padding-right: 20px;
+	width: 100%;
+}
+input[type='checkbox']{
+	
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    -webkit-appearance:none;
+    border: 1px solid #c9c9c9;
+    border-radius: 2px;
+    outline: none;
+}
+.price >div{
+	height: 28px;
+	letter-spacing: -1px;
+}
+.pricetxt{
+	position: relative;
+	top:-5px
+}
+.checkBox input[type=checkbox]:checked{
+   background: url("../img/checkbox.png")no-repeat center;
+}
+
+.prciekuan{
+	border: 1px solid #e3e1e1;
+	width: 110px;
+	padding: 5px;
+	float: left;
+
+}
+.prciekuan >input{
+	border: 0px solid red;
+	width: 30px;
+}
+.prciekuan input.text{
+	text-align:center;
+}
+
+.qued{
+	width: 60px;
+	height: 30px;
+	border: 0px solid red;
+	background-color: #333;
+	color: #fff;
+}
+.remai img{
+	width: 100%;
+}
+@media (max-width:1400px) {
+	.box1{
+		width: 98%;
+	}
+}
+@media (max-width:800px) {
+	.boxtwo{
+		position: relative;
+		top:-20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		width: 100%;
+	}
+	.boxone{
+		position: relative;
+		padding: 20px;
+		width: 300px;
+		height: 500px;
+	
+	}
+}
+
+
+
+/* ----------------------底部样式---------------------- */
+.footer{
+	background-color: #363636;
+	overflow: hidden;
+	padding: 1.5em 0;
+	font-size: 0.8em;
+	margin-top: 2px;
+}
+.footer span{
+	font-size: 1.2rem;
+}
+.footer p{
+	color: #fff;
+	line-height: 1.8em;
+	vertical-align: middle;
+	margin: 0.4em 0;
+}
+.footer a{
+	color: #fff;
+}
