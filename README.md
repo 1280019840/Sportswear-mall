@@ -85,5 +85,5 @@ npm install
 npm run serve
 ```
 
-
-
+## 效果展示
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/.png)
