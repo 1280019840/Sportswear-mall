@@ -16,4 +16,4 @@
 * Ajax
 * MyBatis
 
-![baidu](https://github.com/1280019840/Sportswear-mall/edit/main//123.png "百度logo")  
+![baidu](https://github.com/1280019840/Sportswear-mall/edit/main/123.png "百度logo")  
