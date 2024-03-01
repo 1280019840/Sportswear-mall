@@ -39,3 +39,50 @@ The role of the system is divided into users and system administrators, the syst
 #### The database table is as follows:
 
 ![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/MySQL.png)
+
+## Use:
+* Java language environment
+* MySQL Database
+* Vue installation
+#### Back-end projects:
+1. Clone the project to a local directory
+` ` `
+gi clone https://github.com/1280019840/Sportswear-mall.git
+` ` `
+2. Access the back-end directory:
+` ` `
+cd admin-main
+` ` `
+3. Update the dependencies of the pox.xml file
+4. Configure information such as the database and image storage location
+
+#### Client:
+1. Access the project directory
+` ` `
+cd vue-index
+` ` `
+2. Install dependencies
+` ` `
+npm install
+` ` `
+3. Start the project
+` ` `
+npm run dev
+` ` `
+
+#### Background administrator:
+1. Access the project directory
+` ` `
+cd vue-admin
+` ` `
+2. Install dependencies
+` ` `
+npm install
+` ` `
+3. Start the project
+` ` `
+npm run serve
+` ` `
+
+## Effect display
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/.png)
