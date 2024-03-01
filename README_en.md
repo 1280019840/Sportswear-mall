@@ -85,4 +85,30 @@ npm run serve
 ` ` `
 
 ## Effect display
-![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/.png)
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/home1.png)
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/home2.png)
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/home3.png)
+
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/register.png)
+
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/login.png)
+
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/categoory.png)
+
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/details.png)
+
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/cart.png)
+
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/pay.png)
+
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/order.png)
+
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/forum.png)
+
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/admin_home.png)
+
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/goods_order.png)
+
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/slideshow_admin.png)
+
+There are pages to download source code view
