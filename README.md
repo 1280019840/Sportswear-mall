@@ -14,7 +14,8 @@
 * MySQL
 * ElementUI
 * Ajax
-* MyBatis
-
-![baidu]( "百度logo")  
+* MyBatisPlus
+* Jwt等等
+  
+###文件目录介绍： 
 ![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/12345.png)
