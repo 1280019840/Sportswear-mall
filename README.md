@@ -17,4 +17,4 @@
 * MyBatis
 
 ![baidu]( "百度logo")  
-![image](https://github.com/1280019840/Sportswear-mall/raw/master/123.png)
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/12345.png)
