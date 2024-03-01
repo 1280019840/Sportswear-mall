@@ -40,3 +40,13 @@
 #### 数据库表如下：
 
 ![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/MySQL.png)
+
+## 使用：
+* Java语言环境
+* MySQL数据库
+* Vue安装
+1.克隆项目到本地
+```
+gi clone https://github.com/1280019840/Sportswear-mall.git
+```
+
