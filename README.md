@@ -89,3 +89,7 @@ npm run serve
 ![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/home1.png)
 ![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/home2.png)
 ![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/home3.png)
+
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/register.png)
+
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/login.png)
