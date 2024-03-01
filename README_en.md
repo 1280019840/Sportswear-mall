@@ -1,6 +1,6 @@
 # Project Introduction
 * [Editor's Note](README.md)
-* **Read this in other languages: [English](README_en.md), [中文](README.md).**
+* **Read this in other languages: [English](README_en.md) | [中文](README.md).**
 #### system development adopts front end separation:
 The design of this system mainly starts with the needs of people who love sports and people who like to wear sports clothes, and designs and implements a web-based platform. Opening a professional sportswear mall is an effective way to meet people's shopping needs. Users can browse directly and efficiently, and the system helps consumers save time and cost. Make it more convenient to shop in a fast-paced life. <br>
 
