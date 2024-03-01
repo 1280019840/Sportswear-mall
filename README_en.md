@@ -8,3 +8,34 @@ The requirements of users and system administrators are briefly analyzed below. 
 The main design modules of the administrator include the administrator login module, commodity management module, user management module, fitness discussion area management module, announcement management module, statistical data module, commodity classification management module, and rotation chart management module. <br>
 
 The role of the system is divided into users and system administrators, the system adopts the current popular SpringBoot framework at the back end, the front-end interaction effect uses the Vue framework, the database uses MySQL, through the above three key technologies to complete a complete system, the technical realization of the system
+* SpringBoot
+* Vue.js
+* MySQL
+* ElementUI
+* Ajax
+* MyBatisPlus
+* Jwt等等
+
+## File introduction
+#### The SpringBoot file on the back-end is as follows:
+* comm: used to set the code returned by the request, and set the return result, etc. <br>
+* config: Used to set some system configuration, such as MybatisPlus configuration, etc. <br>
+* controller: Controller folder <br>
+* entity: Entity folder <br>
+* mapper: Persistent Layer interface folder <br>
+* service: Business folder <br>
+* utils: Some custom tool files <br>
+
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/SpringBoot.png)
+
+#### The client files are as follows:
+
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/vue-user.png)
+
+#### Background administrator files are as follows:
+
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/vue-admin.png)
+
+#### The database table is as follows:
+
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/MySQL.png)
