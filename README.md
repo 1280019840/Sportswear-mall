@@ -94,7 +94,7 @@ npm run serve
 
 ![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/login.png)
 
-![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/categoory.png)
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/category.png)
 
 ![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/details.png)
 
