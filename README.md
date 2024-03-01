@@ -19,4 +19,4 @@
   
 ## 文件介绍
 #### 后端SpringBoot文件如下：
-![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/12345.png)
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/SpringBoot.png)
