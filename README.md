@@ -93,3 +93,24 @@ npm run serve
 ![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/register.png)
 
 ![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/login.png)
+
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/categoory.png)
+
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/details.png)
+
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/cart.png)
+
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/pay.png)
+
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/order.png)
+
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/forum.png)
+
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/admin_home.png)
+
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/goods_order.png)
+
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/slideshow_admin.png)
+
+还有的页面可下载源码查看
+感谢观看，记得star谢谢
