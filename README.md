@@ -19,11 +19,11 @@
   
 ## 文件介绍
 #### 后端SpringBoot文件如下：
-comm：用于设置请求返回的代码，以及设置返回结果等<br>
-config：用于设置系统的一些配置，比如MybatisPlus的配置等<br>
-controller：控制器文件夹<br>
-entity：实体文件夹<br>
-mapper：持久层接口文件夹<br>
-service：业务文件夹<br>
-utils：自定义的一些工具文件<br>
+* comm：用于设置请求返回的代码，以及设置返回结果等<br>
+* config：用于设置系统的一些配置，比如MybatisPlus的配置等<br>
+* controller：控制器文件夹<br>
+* entity：实体文件夹<br>
+* mapper：持久层接口文件夹<br>
+* service：业务文件夹<br>
+* utils：自定义的一些工具文件<br>
 ![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/SpringBoot.png)
