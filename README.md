@@ -45,8 +45,16 @@
 * Java语言环境
 * MySQL数据库
 * Vue安装
+#### 后端项目：
 1.克隆项目到本地
 ```
 gi clone https://github.com/1280019840/Sportswear-mall.git
 ```
+2.进入后端目录：
+```
+cd admin-main
+```
+3.更新pox.xml文件的依赖
+
+
 
