@@ -112,5 +112,5 @@ npm run serve
 
 ![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/slideshow_admin.png)
 
-还有的页面可下载源码查看
-感谢观看，记得star谢谢
+#### 还有的页面可下载源码查看<br>
+#### 感谢观看，记得star谢谢
