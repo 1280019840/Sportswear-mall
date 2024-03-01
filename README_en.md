@@ -112,3 +112,4 @@ npm run serve
 ![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/slideshow_admin.png)
 
 There are pages to download source code view
+Thanks for watching, remember star thank
