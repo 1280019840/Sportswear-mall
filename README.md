@@ -39,4 +39,4 @@
 
 #### 数据库表如下：
 
-![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/vue-admin.png)
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/MySQL.png)
