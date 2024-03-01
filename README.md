@@ -55,6 +55,35 @@ gi clone https://github.com/1280019840/Sportswear-mall.git
 cd admin-main
 ```
 3.更新pox.xml文件的依赖
+4.配置数据库，图片存放位置等信息
+
+#### 用户端：
+1.进入项目目录
+```
+cd vue-index
+```
+2.安装依赖
+```
+npm install
+```
+3.启动项目
+```
+npm run dev
+```
+
+#### 后台管理员端：
+1.进入项目目录
+```
+cd vue-admin
+```
+2.安装依赖
+```
+npm install
+```
+3.启动项目
+```
+npm run serve
+```
 
 
 
