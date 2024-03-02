@@ -27,7 +27,7 @@
 * service：业务文件夹<br>
 * utils：自定义的一些工具文件<br>
 
-![image](https://github.com/1280019840/Sportswear-mall/tree/main/img/SpringBoot.png)
+![image](https://github.com/1280019840/Sportswear-mall/raw/main/img/SpringBoot.png)
 
 #### 用户端文件如下：
 
