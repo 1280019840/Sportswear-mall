@@ -47,7 +47,7 @@ The role of the system is divided into users and system administrators, the syst
 #### Back-end projects:
 1. Clone the project to a local directory
 ` ` `
-gi clone https://github.com/1280019840/Sportswear-mall.git
+git clone https://github.com/1280019840/Sportswear-mall.git
 ` ` `
 2. Access the back-end directory:
 ` ` `
