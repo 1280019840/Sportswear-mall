@@ -48,7 +48,7 @@
 #### 后端项目：
 1.克隆项目到本地
 ```
-gi clone https://github.com/1280019840/Sportswear-mall.git
+git clone https://github.com/1280019840/Sportswear-mall.git
 ```
 2.进入后端目录：
 ```
